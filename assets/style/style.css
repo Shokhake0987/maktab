@@ -13,6 +13,7 @@ body {
 
 .logo-main {
     margin-right: 250px;
+    margin-left: -1px;
 }
 
 .navbar {
@@ -75,12 +76,15 @@ body {
     justify-content: center;
     align-items: center;
     list-style: none;
+    margin-top: -45px;
 }
 
 .navbar-right {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: 720px;
+    margin-top: -40px;
 }
 
 .main-text {
@@ -100,7 +104,7 @@ body {
     font-size: 112px;
     line-height: 168px;
     text-align: center;
-    background-image: linear-gradient(to left, violet, indigo, green, red, yellow, orange, red);
+    background-image: linear-gradient(to left, #FE6783, #FFBF84);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
@@ -111,6 +115,11 @@ a {
     text-decoration: none;
     color: #707070;
     transition: all 0.5s ease;
+}
+
+a:hover {
+    transition: .5s;
+    color: #326DF9;
 }
 
 li {
@@ -124,6 +133,11 @@ li {
     transition: all 0.5s ease;
 }
 
+li:hover {
+    transition: .5s;
+    color: #326DF9;
+}
+
 .navbar-login {
     font-style: normal;
     font-weight: 500;
@@ -134,6 +148,11 @@ li {
     cursor: pointer;
     transition: all 0.5s ease;
     margin-left: 250px;
+}
+
+.navbar-login:hover {
+    color: #326DF9;
+    transition: all .5s ease;
 }
 
 .navbar-btn {
@@ -365,27 +384,6 @@ li {
     margin-right: 24px;
 }
 
-.content-btns {
-    width: 206px;
-    height: 64px;
-    border: 1px solid #707070;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    color: #707070;
-    background: transparent;
-    border-radius: 5px;
-    outline: none;
-    transition: all 1s ease;
-}
-
-.content-btns:hover {
-    transition: all .5s ease;
-    color: white;
-    background-color: #326DF9;
-}
-
 .content-right {
     margin-top: 200px;
 }
@@ -599,3 +597,20 @@ li {
     color: #326DF9;
     transition: .5s;
 }
+
+
+.content-btns {
+    width: 206px;
+    height: 64px;
+    border: 1px solid #707070;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #707070;
+    background: transparent;
+    border-radius: 5px;
+    outline: none;
+    transition: all 1s ease;
+}
+
